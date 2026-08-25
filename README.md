@@ -1,4 +1,4 @@
-# Pengembangan-Bisnis-Website-Kemitraan-UMKM-Tukang-Marinasi
+# Pengembangan Bisnis Website Kemitraan UMKM Tukang Marinasi
 Website portfolio sederhana untuk showcase produk UMKM, target pasar, dan peluang kemitraan.
 
 ## Tujuan

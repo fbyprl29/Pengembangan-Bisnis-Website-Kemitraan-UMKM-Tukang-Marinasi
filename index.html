@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tukang Marinasi | UMKM & Partnership</title>
+  <meta name="description" content="Website showcase produk, target pasar, dan peluang kolaborasi Tukang Marinasi.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+  <div class="container nav-wrap">
+    <a href="#home" class="brand">Tukang <span>Marinasi</span></a>
+    <button class="nav-toggle" id="navToggle">☰</button>
+    <nav id="navMenu">
+      <a href="#tentang">Tentang</a><a href="#produk">Produk</a>
+      <a href="#pasar">Pasar</a><a href="#kemitraan">Kemitraan</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow">UMKM • Food • Partnership</p>
+      <h1>Rasa yang siap berkembang bersama lebih banyak pelanggan.</h1>
+      <p class="hero-text">Tukang Marinasi adalah UMKM makanan yang menggabungkan kualitas produk, pemasaran digital, dan pengembangan pasar untuk membangun pertumbuhan yang berkelanjutan.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#kemitraan">Ajukan Kolaborasi</a>
+        <a class="btn secondary" href="#produk">Lihat Produk</a>
+      </div>
+      <div class="stats">
+        <div><strong>100+</strong><span>Produk terjual*</span></div>
+        <div><strong>20%</strong><span>Pertumbuhan pendapatan*</span></div>
+        <div><strong>Jabodetabek</strong><span>Target ekspansi</span></div>
+      </div>
+      <p class="note">*Angka dapat diganti dengan data aktual sebelum dipublikasikan sebagai profil bisnis.</p>
+    </div>
+    <div class="hero-card">
+      <div class="card-top">Peluang Kemitraan</div>
+      <h3>Kolaborasi untuk memperluas jangkauan</h3>
+      <ul><li>Komunitas & organisasi mahasiswa</li><li>Reseller & event</li><li>Promosi digital & social commerce</li></ul>
+      <a class="mini-link" href="#kemitraan">Mulai percakapan →</a>
+    </div>
+  </div>
+</section>
+
+<section id="tentang" class="section">
+  <div class="container two-col">
+    <div><p class="eyebrow">Tentang Bisnis</p><h2>Dibangun dari kebutuhan pelanggan, dikembangkan melalui peluang pasar.</h2></div>
+    <div>
+      <p>Tukang Marinasi dikembangkan sebagai UMKM yang berfokus pada produk makanan marinasi dengan pendekatan yang dekat dengan pelanggan. Pengembangan bisnis dilakukan melalui promosi digital, evaluasi respons pasar, dan perluasan target pelanggan.</p>
+      <p>Fokus pengembangan saat ini adalah memperluas jangkauan ke segmen mahasiswa, komunitas, dan pelanggan di wilayah Jabodetabek melalui kanal digital dan kolaborasi.</p>
+    </div>
+  </div>
+</section>
+
+<section id="produk" class="section alt">
+  <div class="container">
+    <div class="section-head"><div><p class="eyebrow">Produk</p><h2>Produk unggulan</h2></div><p>Contoh katalog untuk portfolio. Ganti dengan produk dan harga aktual.</p></div>
+    <div class="product-grid" id="productGrid"></div>
+  </div>
+</section>
+
+<section id="pasar" class="section">
+  <div class="container">
+    <p class="eyebrow">Target Pasar</p><h2>Peluang pasar yang ingin dikembangkan</h2>
+    <div class="market-grid">
+      <article><span>01</span><h3>Mahasiswa</h3><p>Target untuk paket praktis, promosi komunitas, dan kolaborasi kegiatan kampus.</p></article>
+      <article><span>02</span><h3>Komunitas & Organisasi</h3><p>Peluang pembelian kolektif, event, dan program kolaborasi.</p></article>
+      <article><span>03</span><h3>Jabodetabek</h3><p>Perluasan jangkauan melalui social commerce, reseller, dan jaringan pelanggan.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="kemitraan" class="section dark-section">
+  <div class="container partnership-grid">
+    <div>
+      <p class="eyebrow light">Kemitraan</p><h2>Punya komunitas, event, atau peluang kolaborasi?</h2>
+      <p>Website ini dirancang sebagai titik awal untuk lead generation dan stakeholder engagement. Calon partner dapat mengirim kebutuhan kolaborasi melalui formulir.</p>
+      <div class="pill-row"><span>Reseller</span><span>Event</span><span>Community</span><span>Campus</span></div>
+    </div>
+    <form id="partnershipForm" class="form-card">
+      <h3>Form Minat Kolaborasi</h3>
+      <label>Nama<input id="name" required placeholder="Nama Anda"></label>
+      <label>Organisasi / Bisnis<input id="organization" required placeholder="Nama organisasi atau bisnis"></label>
+      <label>Jenis Kolaborasi<select id="collab" required><option value="">Pilih...</option><option>Reseller</option><option>Event</option><option>Komunitas</option><option>Kerja sama kampus</option><option>Promosi digital</option></select></label>
+      <label>Pesan<textarea id="message" rows="4" required placeholder="Jelaskan kebutuhan kolaborasi"></textarea></label>
+      <button class="btn primary full" type="submit">Kirim Permintaan</button>
+      <p class="form-note">Demo: formulir membuka draft WhatsApp. Ganti nomor tujuan di script.js.</p>
+      <div id="formResult" class="form-result"></div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer><div class="container footer-wrap"><span>© <span id="year"></span> Tukang Marinasi</span><span>Business Development Portfolio Project • HTML • CSS • JavaScript</span></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
